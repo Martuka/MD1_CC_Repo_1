@@ -1,9 +1,7 @@
 
 var d = 250.0;
-
 var width, height;
-var counter = "hello";
-var counter2 = "world";
+
 
 function setup() {
   width = 1000;
@@ -19,8 +17,7 @@ function setup() {
 function draw() {
   var xCenterEllipse = width/2;
   var yCenterEllipse = height/2;
-  //print();
-  print(counter + " : " + counter2);
+
   noStroke();
   fill('#FFC0CB');
 
